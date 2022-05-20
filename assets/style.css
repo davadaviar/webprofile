@@ -15,7 +15,7 @@ body {
 
 .jumbotron {
     width: 100%;
-    min-height: 300px;
+    min-height: 350px;
     background-image: url(/assets/images/computer.jpg);
     object-fit: cover;
     object-position: center;
@@ -60,6 +60,11 @@ nav a:hover {
     text-decoration: underline;
 }
 
+
+
+
+
+
 @media screen and (max-width: 1000px) {
 
     .jumbotron {
@@ -75,4 +80,6 @@ nav a:hover {
     nav {
         text-align: center;
     }
+
+    
 }
