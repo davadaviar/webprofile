@@ -134,6 +134,10 @@ nav a:hover {
         font-size: 40px;
     }
     
+    .content p {
+        width: 100%;
+    }
+
     .content span {
         color: orange;
     }
