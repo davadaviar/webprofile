@@ -120,6 +120,22 @@ nav a:hover {
     box-shadow: 20px 20px 0 orange;
 }
 
+#skill-highlight {
+    position: relative;
+}
+
+.big-header {
+    position: absolute;
+    margin-top: 150px;
+    font-size: 100px;
+    color: orange;
+    text-shadow: 8px 8px 0 white;
+}
+
+.big-header h1 {
+    margin: 0;
+}
+
 @media screen and (max-width: 1000px) {
 
     .jumbotron {
@@ -171,5 +187,12 @@ nav a:hover {
         font-size: 16px;
         font-weight: bold;
         border-radius: 10px;
+    }
+
+    .big-header {
+        position: absolute;
+        margin-top: 150px;
+        font-size: 60px;
+        text-align: center;
     }
 }
