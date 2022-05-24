@@ -48,6 +48,7 @@ nav {
     position: sticky;
     top: 0;
     box-shadow: 0 4px 12px 2px #0f0c17;
+    z-index: 5;
 }
 
 nav li {
@@ -98,7 +99,7 @@ nav a:hover {
 }
 
 #skills-highlight {
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 .container-scroll {
@@ -128,6 +129,14 @@ nav a:hover {
 
 .text-orange {
     color: orange;
+}
+
+#design-projects {
+    margin-top: 150px;
+}
+
+#design-projects header {
+    font-size: 40px;
 }
 
 @keyframes animate {
