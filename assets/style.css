@@ -75,6 +75,7 @@ nav a:hover {
 
 #perkenalan {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     margin-top: 30px;
 }
@@ -92,6 +93,7 @@ nav a:hover {
 }
 
 .img-content img {
+    padding-right: 0;
     width: 320px;
     border-radius: 15px;
     border: 4px solid orange;
@@ -135,8 +137,48 @@ nav a:hover {
     margin-top: 150px;
 }
 
-#design-projects header {
+#design-projects h2 {
     font-size: 40px;
+}
+
+#design-projects figure {
+    margin: 0;
+}
+
+figure .img-project {
+    border-radius: 12px;
+    width: 380px;
+}
+
+.projects-container {
+    padding-right: 15px;
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.project-item {
+    flex-basis: 1;
+}
+
+.projects-container .item-content {
+    margin-top: 30px;
+}
+
+.projects-container .item-content a {
+    color: orange;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.card {
+    width: 420px;
+    padding: 20px;
+    border: 2px solid orange;
+    border-radius: 15px;
+    box-shadow: 15px 15px 0 orange;
 }
 
 @keyframes animate {
