@@ -147,7 +147,7 @@ nav a:hover {
 
 figure .img-project {
     border-radius: 12px;
-    width: 380px;
+    width: 100%;
 }
 
 .projects-container {
@@ -170,7 +170,8 @@ figure .img-project {
 }
 
 .card {
-    width: 100%;
+    width: 400px;
+    margin: 0 auto;
     padding: 20px;
     border: 2px solid orange;
     border-radius: 15px;
@@ -189,8 +190,7 @@ figure .img-project {
     }
 }
 
-
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 513px) {
 
     .jumbotron {
         padding: 50px;
@@ -245,13 +245,13 @@ figure .img-project {
     }
 
     .projects-container {
-        padding-right: 15px;
         margin-top: 50px;
         display: flex;
         flex-direction: column;
     }
 
     .card {
+        width: 100%;
         margin-bottom: 60px;
     }
 
