@@ -159,10 +159,6 @@ figure .img-project {
     justify-content: space-between;
 }
 
-.project-item {
-    flex-basis: 1;
-}
-
 .projects-container .item-content {
     margin-top: 30px;
 }
@@ -174,7 +170,7 @@ figure .img-project {
 }
 
 .card {
-    width: 420px;
+    width: 100%;
     padding: 20px;
     border: 2px solid orange;
     border-radius: 15px;
@@ -242,5 +238,25 @@ figure .img-project {
     .container-scroll .scroll div h3 {
         font-size: 40px;
         margin: 0;
+    }
+
+    #design-projects {
+        margin-top: 80px;
+    }
+
+    .projects-container {
+        padding-right: 15px;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        margin-bottom: 60px;
+    }
+
+    figure .img-project {
+        border-radius: 12px;
+        width: 100%;
     }
 }
