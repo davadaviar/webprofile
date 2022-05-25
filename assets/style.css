@@ -17,6 +17,10 @@ p {
     line-height: 27px;
 }
 
+hr {
+    margin-top: 100px;
+}
+
 .jumbotron {
     width: 100%;
     min-height: 350px;
@@ -134,7 +138,7 @@ nav a:hover {
 }
 
 #design-projects {
-    margin-top: 150px;
+    margin-top: 80px;
 }
 
 #design-projects h2 {
@@ -192,6 +196,10 @@ figure .img-project {
 
 @media screen and (max-width: 928px) {
 
+    hr {
+        margin-top: 60px;
+    }
+
     .jumbotron {
         padding: 50px;
         font-size: 18px;
@@ -241,7 +249,7 @@ figure .img-project {
     }
 
     #design-projects {
-        margin-top: 80px;
+        margin-top: 50px;
     }
 
     .projects-container {
