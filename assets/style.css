@@ -171,7 +171,6 @@ figure .img-project {
 
 .card {
     width: 400px;
-    margin: 0 auto;
     padding: 20px;
     border: 2px solid orange;
     border-radius: 15px;
@@ -190,7 +189,8 @@ figure .img-project {
     }
 }
 
-@media screen and (max-width: 513px) {
+
+@media screen and (max-width: 928px) {
 
     .jumbotron {
         padding: 50px;
