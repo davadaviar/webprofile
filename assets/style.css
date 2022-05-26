@@ -98,6 +98,10 @@ nav a:hover {
     font-size: 18px;
 }
 
+.img-profile figure {
+    padding-left: 40px;
+}
+
 .img-profile img {
     padding-right: 0;
     width: 320px;
@@ -218,6 +222,10 @@ figure .img-project {
     padding-left: 100px;
 }
 
+#coding-journeys .content p {
+    margin-bottom: 60px;
+}
+
 @keyframes animate {
     0%
     {
@@ -264,16 +272,17 @@ figure .img-project {
         flex-direction: column-reverse;
     }
 
+    .img-profile figure {
+        padding-right: 50px;
+        margin: 0 0 30px 0;
+    }
+
     .img-profile img {
         width: 250px;
     }
 
     .content h2 {
         font-size: 40px;
-    }
-
-    #perkenalan .content {
-        padding: 15px;
     }
     
     .content p {
@@ -318,13 +327,14 @@ figure .img-project {
        flex-direction: column;
        text-align: center;
     }
-    
+
     .img-code img {
         width: 250px;
+        margin-bottom: 30px;
     }
 
     #coding-journeys .content {
-        padding: 15px;
+        padding-left: 0;
     }
 
     #coding-journeys .content p {
