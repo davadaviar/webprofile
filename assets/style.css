@@ -17,6 +17,10 @@ p {
     line-height: 27px;
 }
 
+h2 {
+    font-size: 60px;
+}
+
 hr {
     margin-top: 100px;
 }
@@ -85,10 +89,6 @@ nav a:hover {
     margin-top: 30px;
 }
 
-.content h2 {
-    font-size: 60px;
-}
-
 .content span {
     color: orange;
 }
@@ -147,10 +147,6 @@ nav a:hover {
     margin-top: 80px;
 }
 
-#design-projects h2 {
-    font-size: 40px;
-}
-
 #design-projects figure {
     margin: 0;
 }
@@ -202,6 +198,10 @@ figure .img-project {
     transition: 0.5s ease-in-out;
 }
 
+.flex {
+    display: flex;
+}
+
 #coding-journeys {
     display: flex;
     margin-top: 80px;
@@ -225,6 +225,13 @@ figure .img-project {
 #coding-journeys .content p {
     margin-bottom: 60px;
 }
+
+#frameworks figure img {
+    width: 150px;
+}
+
+
+/* Animation */
 
 @keyframes animate {
     0%
