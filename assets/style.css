@@ -252,7 +252,9 @@ figure .img-project {
         margin-top: 60px;
     }
 
-    
+    h2 {
+        font-size: 40px;
+    }
 
     .jumbotron {
         padding: 50px;
@@ -268,6 +270,10 @@ figure .img-project {
         text-align: center;
     }
 
+    nav ul {
+        padding: 0;
+    }
+
     nav a {
         font-size: 16px;
     }
@@ -275,6 +281,11 @@ figure .img-project {
     #content {
         padding: 30px;
         text-align: center;
+    }
+
+    .card {
+        border-radius: 10px;
+        box-shadow: 10px 10px 0 orange;
     }
 
     #perkenalan {
@@ -288,6 +299,9 @@ figure .img-project {
 
     .img-profile img {
         width: 250px;
+        border-radius: 10px;
+        border: 2px solid orange;
+        box-shadow: 10px 10px 0 orange;
     }
 
     .content h2 {
@@ -341,6 +355,9 @@ figure .img-project {
     .img-code img {
         width: 250px;
         margin-bottom: 30px;
+        border-radius: 10px;
+        border: 2px solid orange;
+        box-shadow: 10px 10px 0 orange;
     }
 
     #coding-journeys .content p {
