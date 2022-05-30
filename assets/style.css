@@ -218,8 +218,8 @@ figure .img-project {
     box-shadow: 20px 20px 0 orange;
 }
 
-#coding-journeys .content {
-    padding-left: 100px;
+#coding-journeys {
+    gap: 100px;
 }
 
 #coding-journeys .content p {
@@ -251,6 +251,8 @@ figure .img-project {
     hr {
         margin-top: 60px;
     }
+
+    
 
     .jumbotron {
         padding: 50px;
@@ -333,15 +335,12 @@ figure .img-project {
     #coding-journeys {
        flex-direction: column;
        text-align: center;
+       gap: 15px;
     }
 
     .img-code img {
         width: 250px;
         margin-bottom: 30px;
-    }
-
-    #coding-journeys .content {
-        padding-left: 0;
     }
 
     #coding-journeys .content p {
