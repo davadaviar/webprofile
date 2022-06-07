@@ -321,10 +321,13 @@ figure .img-project {
         z-index: -1;
         transform: translateX(100%);
         box-shadow: 0 4px 12px 2px #0f0c17;
+        transition: all 0.5s;
+        opacity: 0;
     }
 
     nav ul.active {
         transform: translateX(0);
+        opacity: 1;
     }
 
     nav a {
