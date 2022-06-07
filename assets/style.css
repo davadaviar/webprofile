@@ -51,16 +51,30 @@ header {
 }
 
 nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #251D3A;
-    padding: 10px;
+    padding: 20px 50px;
     position: sticky;
     top: 0;
     box-shadow: 0 4px 12px 2px #0f0c17;
     z-index: 5;
 }
 
+.logo {
+    margin: 0;
+}
+
+nav ul {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
 nav li {
-    display: inline;
     list-style: none;
 }
 
@@ -69,13 +83,26 @@ nav a {
     text-decoration: none;
     font-size: 20px;
     font-weight: 400;
-    margin-right: 25px;
 }
 
 nav a:hover {
     color: orange;
     font-weight: bold;
     text-decoration: underline;
+}
+
+.menu-btn {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20px;
+}
+
+.menu-btn span {
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: white;
 }
 
 #content {
@@ -275,15 +302,20 @@ figure .img-project {
     }
 
     nav {
-        text-align: center;
+        padding: 15px 30px;
     }
 
     nav ul {
         padding: 0;
+        display: none;
     }
 
     nav a {
         font-size: 16px;
+    }
+
+    .menu-btn {
+        display: flex;
     }
 
     #content {
