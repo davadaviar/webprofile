@@ -26,6 +26,8 @@ hr {
     margin-top: 100px;
 }
 
+/* Start : Jumbotron */
+
 .jumbotron {
     width: 100%;
     min-height: 350px;
@@ -46,6 +48,10 @@ hr {
     font-weight: 300;
     font-size: 18px;
 }
+
+/* End : Jumbotron */
+
+/* Start : Navbar */
 
 header {
     display: inline;
@@ -106,9 +112,14 @@ nav a:hover {
     background-color: white;
 }
 
+/* End : Navbar */
+
+
 #content {
     padding: 50px;
 }
+
+/* Start : Perkenalan */
 
 #perkenalan {
     display: flex;
@@ -137,6 +148,10 @@ nav a:hover {
     border: 4px solid orange;
     box-shadow: 20px 20px 0 orange;
 }
+
+/* End : Perkenalan */
+
+/* Start : Skill Highlight */
 
 #skills-highlight {
     margin-top: 60px;
@@ -170,6 +185,10 @@ nav a:hover {
 .text-orange {
     color: orange;
 }
+
+/* End : Skill Highlight */
+
+/* Start : Design Projects */
 
 #design-projects {
     margin-top: 80px;
@@ -211,6 +230,10 @@ figure .img-project {
     box-shadow: 15px 15px 0 orange;
 }
 
+/* End : Design Projects */
+
+/* Start : Expand Component Style*/
+
 .btn {
     padding: 15px 20px;
     background-color: orange;
@@ -229,6 +252,10 @@ figure .img-project {
 .flex {
     display: flex;
 }
+
+/* End : Expand Component Syle */
+
+/* Start : Coding Journeys */
 
 #coding-journeys {
     display: flex;
@@ -254,18 +281,16 @@ figure .img-project {
     margin-bottom: 60px;
 }
 
-#frameworks figure img {
+/* End : Coding Journeys */
+
+.item-box img {
     width: 150px;
 }
 
-.frameworks-container figure img {
-    width: 150px;
+.stroke {
+    width: 350px;
+    border: 2px solid orange;
 }
-
-.frameworks-container figure {
-    text-align: center;
-}
-
 
 /* Animation */
 
@@ -292,6 +317,8 @@ figure .img-project {
         font-size: 40px;
     }
 
+    /* Start : Jumbotron */
+
     .jumbotron {
         padding: 50px;
         font-size: 18px;
@@ -301,6 +328,10 @@ figure .img-project {
         width: 80%;
         font-size: 16px;
     }
+
+    /* End : Jumbotron */
+
+    /* Start : Navbar */
 
     nav {
         padding: 15px 30px;
@@ -338,16 +369,24 @@ figure .img-project {
         display: flex;
     }
 
+    /* End : Navbar */
+    
    
     #content {
         padding: 30px;
         text-align: center;
     }
 
+    /* Start : Expand Components Style */
+
     .card {
         border-radius: 10px;
         box-shadow: 10px 10px 0 orange;
     }
+
+    /* End : Expand Components Style */
+
+    /* Start : Perkenalan */
 
     #perkenalan {
         flex-direction: column-reverse;
@@ -378,6 +417,10 @@ figure .img-project {
         color: orange;
     }
 
+    /* End : Perkenalan */
+
+    /* Start : Skill Highlight */
+
     #skills-highlight {
         margin-top: 20px;
     }
@@ -386,6 +429,10 @@ figure .img-project {
         font-size: 40px;
         margin: 0;
     }
+
+    /* End : Skill Highlight */
+
+    /* Start : Design Projects */
 
     #design-projects {
         margin-top: 50px;
@@ -407,6 +454,10 @@ figure .img-project {
         width: 100%;
     }
 
+    /* End : Design Projects */
+
+    /* Start : Coding Journeys */
+
     #coding-journeys {
        flex-direction: column;
        text-align: center;
@@ -424,4 +475,6 @@ figure .img-project {
     #coding-journeys .content p {
         margin-bottom: 50px;
     }
+
+    /* End : Coding Journeys */
 }
