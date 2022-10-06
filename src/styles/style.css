@@ -31,7 +31,7 @@ hr {
 .jumbotron {
     width: 100%;
     min-height: 350px;
-    background-image: url('../assets/images/computer.jpg');
+    background-image: url("../../public/images/computer.jpg");
     object-fit: cover;
     object-position: center;
     padding: 60px;
